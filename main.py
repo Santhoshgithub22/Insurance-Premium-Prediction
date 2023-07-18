@@ -1,5 +1,6 @@
 from Insurance.logger import logging
 from Insurance.exception import InsuranceException
+from Insurance.utils import get_collection_as_dataframe
 import os, sys
 
 def test_logger_and_exception():
